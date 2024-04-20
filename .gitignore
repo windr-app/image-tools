@@ -45,3 +45,4 @@ nbdist/
 # temp files
 tmp/
 .DS_Store
+.java-version
