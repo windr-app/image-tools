@@ -1,15 +1,19 @@
 package org.windr.util;
 
-import javax.imageio.ImageIO;
-import java.awt.*;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.RenderingHints;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.util.logging.Logger;
+import javax.imageio.ImageIO;
 
 /**
  * This class is used to manipulate images.
  */
 public class ImageManipulator {
-    java.util.logging.Logger logger = java.util.logging.Logger.getLogger("org.windr.util.ImageManipulator");
+    Logger logger = Logger.getLogger("org.windr.util.ImageManipulator");
 
     private BufferedImage image;
 
