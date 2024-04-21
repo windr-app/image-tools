@@ -148,7 +148,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/windr-org/image-tools</url>
+      <url>https://maven.pkg.github.com/windr-app/image-tools</url>
     </repository>
   </distributionManagement>
 
