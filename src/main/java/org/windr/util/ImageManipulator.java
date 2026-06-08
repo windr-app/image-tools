@@ -279,12 +279,12 @@ public class ImageManipulator {
      * Saves all images including SVG export.
      * @param path The base path where the images will be saved
      * @param baseName The base name for the images
-     * @param includesSVG Whether to include SVG export
+     * @param includeSVG Whether to include SVG export
      */
-    public void saveAllImages(String path, String baseName, boolean includesSVG) {
+    public void saveAllImages(String path, String baseName, boolean includeSVG) {
         saveAllImages(path, baseName);
         
-        if (includesSVG) {
+        if (includeSVG) {
             try {
                 // Export original size as SVG
                 String svgPath = path + baseName + Prefix.ORIGINAL.getPrefix() + ".svg";
